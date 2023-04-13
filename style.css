@@ -1,0 +1,49 @@
+body{
+	margin:100px;
+}
+.dropdownlists{
+	height:30px;
+	width:200px;
+	border:1px solid;
+}
+.dropdownlists a{
+	width:100%;
+	height:30px;
+	font-size:20px;
+	font-weight:400;
+	text-align:left;
+	line-height:30px;
+	background-color:#adadad;
+	color:white;
+	display:inline-block;
+	text-decoration:none;
+}
+.dell{
+	display:none;
+	position:absolute;
+	left:100px;
+}
+
+.dell ul{
+	border:3px solid;
+	width:80%;
+	list-style:none;
+	margin-left:10px; 
+	height:80px;
+	background-color:red;
+	
+}
+
+.dell1{
+	text-align:center;
+}
+.dell li:hover{
+	background-color:black;
+	color:white;
+	width:150px;
+	position:absolute;
+	/* left:103px; */
+}
+.boom{
+	display:block;
+}
